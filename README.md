@@ -23,4 +23,5 @@ Step 2. Add the dependency
 
 ## introduce
 	 ImageSelectorActivity.start(mActivity, 1, ImageSelectorActivity.MODE_SINGLE, true, true, true);
-参数分别代表
+
+![](http://i.imgur.com/4sU6PCE.png)
