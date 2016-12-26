@@ -69,6 +69,15 @@ public class ImageSelectorActivity extends AppCompatActivity {
 
     private String cameraPath;
 
+    /**
+     *
+     * @param activity
+     * @param maxSelectNum 最多选择几张
+     * @param mode 单选或是复选模式
+     * @param isShow 是否显示相机
+     * @param enablePreview 是否支持预览
+     * @param enableCrop 是否需要裁剪
+     */
     public static void start(Activity activity, int maxSelectNum, int mode, boolean isShow, boolean enablePreview, boolean enableCrop) {
         Intent intent = new Intent(activity, ImageSelectorActivity.class);
         intent.putExtra(EXTRA_MAX_SELECT_NUM, maxSelectNum);
